@@ -1,0 +1,37 @@
+body {
+  color: #2f80ed;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  background-color: #fff;
+  margin:auto;
+}
+.header-title {
+    font-size: 120px;
+    line-height: 140px;
+    font-weight: 400px;
+    padding-right: 440px;
+    padding-left: 440px;
+    padding-bottom: 10px;
+}
+
+img {
+    padding: 110px 380px 0px 380px;
+}
+
+.footer-content {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: normal;
+    padding: 0px 440px 30px 440px;  
+}
+
+p{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400px;
+    opacity: 0;
+    transition: ease-in-out;
+    color:black
+}
+h1:hover + p {
+    display: block;
+  }
