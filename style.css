@@ -30,8 +30,8 @@ p{
     font-weight: 400px;
     opacity: 0;
     transition: ease-in-out;
-    color:black
-}
+    color:black;}
+
 h1:hover + p {
     display: block;
   }
